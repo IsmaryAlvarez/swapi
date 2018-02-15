@@ -1,0 +1,17 @@
+
+
+
+img {
+  width: 100%;
+  height: 25vh;
+  border: 1px solid transparent;
+  border-radius: 2em;
+}
+
+#primerRow {
+  margin-top: 5%;
+}
+
+#segundoRow {
+  margin-top: 5%;
+}

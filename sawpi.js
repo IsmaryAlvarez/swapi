@@ -1,5 +1,6 @@
 // elementos que usaremos
 const form = $('#Luke_Skywalker');
+
 const responseContainer = document.getElementById('response-container');
 
 //a nuestro form le damos el evento submit
@@ -29,10 +30,10 @@ console.log(data);
 
       let output = `
     <div class="row text-center">
-    <div class="col-xs-12">
-    <img src="img/Luke Skywalker.png" class="thumbnail">
+    <div class="col-xs-6 col-md-6 col-lg-6">
+    <img src="img/Luke Skywalker.png" class="thumbnail imgModal">
     </div>
-    <div class="col-xs-12">
+    <div class="col-xs-12 col-md-12 col-lg-12">
     <h2>${data.results[0].name}</h2>
     <ul class="list-group">
     <li class="list-group-item"><strong>Gender:</strong> ${data.results[0].gender}</li>
